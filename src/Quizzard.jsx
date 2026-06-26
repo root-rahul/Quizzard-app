@@ -620,7 +620,7 @@ const styles = {
   playRow: { fontSize: 13, fontWeight: 600 },
   doneBadge: { position: "absolute", top: 14, right: 44, fontSize: 11, fontWeight: 700, borderRadius: 99, padding: "2px 8px" },
   quizContainer: { maxWidth: 620, margin: "0 auto", padding: "40px 24px 60px" },
-  backBtn: { background: "#008000", color: "#fff", border: "none", borderRadius: 15, fontSize: 22, fontWeight: 600, cursor: "pointer", padding: "12px 40px", fontWeight: 800, position: "absolute", top: "620px", right: "800px" },
+  backBtn: { background: "#008000", color: "#fff", border: "none", borderRadius: 15, fontSize: 13, cursor: "pointer", padding: "8px 30px", fontWeight: 800, position: "absolute", top: "480px", right: "580px" },
   catLabel: { fontSize: 11, fontWeight: 700, letterSpacing: 1.5, color: "#9ca3af", textTransform: "uppercase" },
   catName: { fontSize: 22, fontWeight: 700, color: "#111827" },
   questionCard: { background: "#fff", borderRadius: 16, padding: "28px 28px 24px", marginBottom: 20, boxShadow: "0 1px 4px rgba(0,0,0,0.07)" },
