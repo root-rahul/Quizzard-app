@@ -890,7 +890,7 @@ export default function Quizzard() {
           <p style={styles.subtitle}>
             Nine categories. One question each. Tap a card, answer fast, and see how sharp your trivia really is.
           </p>
-          {/* <button
+          <button
             //  onClick={resetAll} // need to comment this
              title="Clear all progress and start fresh"
              style={{
@@ -909,7 +909,7 @@ export default function Quizzard() {
              }}
           >
               🔄 Reset Progress
-          </button> */}
+          </button>
 
         </div>
 
