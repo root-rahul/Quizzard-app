@@ -891,7 +891,7 @@ export default function Quizzard() {
             Nine categories. One question each. Tap a card, answer fast, and see how sharp your trivia really is.
           </p>
           <button
-            //  onClick={resetAll} // need to comment this
+             onClick={resetAll} // need to comment this
              title="Clear all progress and start fresh"
              style={{
             
@@ -904,7 +904,7 @@ export default function Quizzard() {
                padding: "5px 14px",
                fontSize: 12,
                fontWeight: 600,
-              //  cursor: "pointer", // need to comment this
+               cursor: "pointer", // need to comment this
                letterSpacing: 0.3,
              }}
           >
