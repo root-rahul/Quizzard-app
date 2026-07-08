@@ -448,26 +448,7 @@ const questions = {
 ],
   // AI
   7: [
-  { q: "What does AI stand for?", options: ["Automated Intelligence", "Artificial Intelligence", "Advanced Interface", "Accurate Information"], answer: 1 },
-  { q: "Which company developed ChatGPT?", options: ["Google", "Microsoft", "OpenAI", "Amazon"], answer: 2 },
-  { q: "Which of the following is an example of AI?", options: ["Calculator", "Voice assistant (like Alexa)", "Toaster", "Printer"], answer: 1 },
-  { q: "AI systems learn from which of the following?", options: ["Paint", "Data", "Music only", "Paper"], answer: 1 },
-  { q: "Which AI tool is used for image generation?", options: ["Excel", "PowerPoint", "DALL·E", "Word"], answer: 2 },
-  { q: "What is Machine Learning?", options: ["Machines that only store data", "Machines that learn from data", "Machines that sleep", "Machines that print"], answer: 1 },
-  { q: "Which company developed Alexa?", options: ["Apple", "Amazon", "Google", "Meta"], answer: 1 },
-  { q: "Which of these is a chatbot?", options: ["Excel", "ChatGPT", "Photoshop", "Notepad"], answer: 1 },
-  { q: "What is the purpose of AI in businesses?", options: ["Increase manual work", "Automate tasks", "Slow down processes", "Increase errors"], answer: 1 },
-  { q: "Which term refers to AI understanding human language?", options: ["NLP (Natural Language Processing)", "GPU", "CPU", "URL"], answer: 0 },
-  { q: "Which of these is a popular AI programming language?", options: ["HTML", "Python", "CSS", "SQL"], answer: 1 },
-  { q: "Which feature allows AI to recognize images?", options: ["Speech Recognition", "Computer Vision", "Data Entry", "Typing"], answer: 1 },
-  { q: "Which AI is used in self-driving cars?", options: ["Robotics + AI", "Spreadsheet tools", "Email software", "Antivirus"], answer: 0 },
-  { q: "Which company developed Google Assistant?", options: ["Apple", "Microsoft", "Google", "IBM"], answer: 2 },
-  { q: "AI can help in which of the following?", options: ["Healthcare", "Finance", "Education", "All of the above"], answer: 3 },
-  { q: "Which term means AI making decisions based on data?", options: ["Cooking", "Data-driven decision making", "Painting", "Singing"], answer: 1 },
-  { q: "Which company makes the Siri voice assistant?", options: ["Google", "Apple", "Amazon", "Microsoft"], answer: 1 },
-  { q: "Which AI tool helps write text and answer questions?", options: ["Calculator", "ChatGPT", "Paint", "Excel"], answer: 1 },
-  { q: "What is a robot?", options: ["A human", "A machine that can perform tasks automatically", "A book", "A song"], answer: 1 },
-  { q: "Which field combines AI with building physical machines?", options: ["Networking", "Robotics", "Accounting", "Marketing"], answer: 1 },
+
   { q: "Who is widely regarded as the Father of Artificial Intelligence?", options: ["Alan Turing", "John McCarthy", "Marvin Minsky", "Charles Babbage"], answer: 1 },
   { q: "Which of the following is NOT one of the primary AI domains?", options: ["Computer Vision", "Natural Language Processing", "Data Science", "Database Management System"], answer: 3 },
   { q: "What does the phrase 'Data is the new oil' primarily imply?", options: ["Data is a non-renewable resource", "Data is as valuable as oil", "Data is the raw fuel used to train intelligent machine learning models", "Data and oil both require refineries"], answer: 2 },
@@ -890,7 +871,7 @@ export default function Quizzard() {
           <p style={styles.subtitle}>
             Nine categories. One question each. Tap a card, answer fast, and see how sharp your trivia really is.
           </p>
-          {/* <button
+          <button
             //  onClick={resetAll} // need to comment this
              title="Clear all progress and start fresh"
              style={{
@@ -909,7 +890,7 @@ export default function Quizzard() {
              }}
           >
               🔄 Reset Progress
-          </button> */}
+          </button>
 
         </div>
 
