@@ -382,25 +382,44 @@ const questions = {
   { q: "Which sport uses a pommel horse?", options: ["Wrestling", "Gymnastics", "Athletics", "Polo"], answer: 1 },
   { q: "Who is a famous Formula 1 driver?", options: ["Roger Federer", "Lewis Hamilton", "Cristiano Ronaldo", "Tiger Woods"], answer: 1 },
   { q: "Which sport includes a 'free kick'?", options: ["Cricket", "Football", "Tennis", "Basketball"], answer: 1 },
+
   { q: "How long is a standard cricket pitch (between the two sets of wickets)?", options: ["22 yards", "33 yards", "30 yards", "27 yards"], answer: 0 },
+
   { q: "Which city is the headquarters of the International Olympic Committee (IOC)?", options: ["Lausanne, Switzerland", "London, United Kingdom", "Brisbane, Australia", "Los Angeles, USA"], answer: 0 },
+
   { q: "How many laps are driven in a Formula 1 Monaco Grand Prix?", options: ["90 laps", "88 laps", "78 laps", "80 laps"], answer: 2 },
+
   { q: "Naidu Cup belongs to which game?", options: ["Hockey", "Kabaddi", "Chess", "Cricket"], answer: 2 },
+
   { q: "Where was the first Cricket Test match played?", options: ["London", "Sydney", "Melbourne", "Kolkata"], answer: 2 },
+
   { q: "When was the first Cricket World Cup held?", options: ["1965", "1970", "1975", "1980"], answer: 2 },
+
   { q: "What is the term for a ball that bounces once before reaching the batsman at around waist height?", options: ["Yorker", "Full Toss", "Good Length", "Bouncer"], answer: 2 },
+
   { q: "Which sport is the only one to have ever been played on the moon?", options: ["Golf", "Football", "Rugby", "Sprint"], answer: 0 },
+
   { q: "What is the sandy, hollow area on a golf course called?", options: ["Dune", "Bunker", "Amen Corner", "Birdie"], answer: 1 },
+
   { q: "What does WWE stand for?", options: ["World Wrestling Engagement", "World Wrestling Ensemble", "World Wrestling Entertainment", "World Wrestling Enterprise"], answer: 2 },
+
   { q: "Which wrestler is known for his signature move 'Tombstone Piledriver'?", options: ["The Undertaker", "Hulk Hogan", "The Rock", "Edge"], answer: 0 },
+
   { q: "Which country has won the most FIFA World Cup titles?", options: ["Spain", "Argentina", "Brazil", "Mexico"], answer: 2 },
+
   { q: "Which player holds the record for the most goals scored in international football history?", options: ["Diego Maradona", "David Beckham", "Cristiano Ronaldo", "Pelé"], answer: 2 },
+
   { q: "Which Grand Slam is played on clay courts?", options: ["French Open", "Wimbledon", "US Open", "Australian Open"], answer: 0 },
   { q: "Which female tennis player wrote the autobiography 'Ace Against Odds'?", options: ["Steffi Graf", "Sania Mirza", "Maria Sharapova", "Serena Williams"], answer: 1 },
+
   { q: "Which country has won the most Olympic gold medals in men's field hockey?", options: ["Pakistan", "Netherlands", "India", "Australia"], answer: 2 },
+
   { q: "How many hurdles are there in a standard 400-metre hurdles race?", options: ["16", "12", "10", "15"], answer: 2 },
+
   { q: "What is the official distance of a marathon?", options: ["42 km", "24 km", "21 km", "41 km"], answer: 0 },
+
   { q: "In which ancient country did the Olympic Games originate?", options: ["France", "Spain", "Greece", "USA"], answer: 2 },
+
   { q: "Who was the first Indian athlete to win an individual Olympic gold medal?", options: ["Abhinav Bindra", "Neeraj Chopra", "Karnam Malleswari", "Mary Kom"], answer: 0 }
 
 ],
@@ -429,6 +448,26 @@ const questions = {
 ],
   // AI
   7: [
+  { q: "What does AI stand for?", options: ["Automated Intelligence", "Artificial Intelligence", "Advanced Interface", "Accurate Information"], answer: 1 },
+  { q: "Which company developed ChatGPT?", options: ["Google", "Microsoft", "OpenAI", "Amazon"], answer: 2 },
+  { q: "Which of the following is an example of AI?", options: ["Calculator", "Voice assistant (like Alexa)", "Toaster", "Printer"], answer: 1 },
+  { q: "AI systems learn from which of the following?", options: ["Paint", "Data", "Music only", "Paper"], answer: 1 },
+  { q: "Which AI tool is used for image generation?", options: ["Excel", "PowerPoint", "DALL·E", "Word"], answer: 2 },
+  { q: "What is Machine Learning?", options: ["Machines that only store data", "Machines that learn from data", "Machines that sleep", "Machines that print"], answer: 1 },
+  { q: "Which company developed Alexa?", options: ["Apple", "Amazon", "Google", "Meta"], answer: 1 },
+  { q: "Which of these is a chatbot?", options: ["Excel", "ChatGPT", "Photoshop", "Notepad"], answer: 1 },
+  { q: "What is the purpose of AI in businesses?", options: ["Increase manual work", "Automate tasks", "Slow down processes", "Increase errors"], answer: 1 },
+  { q: "Which term refers to AI understanding human language?", options: ["NLP (Natural Language Processing)", "GPU", "CPU", "URL"], answer: 0 },
+  { q: "Which of these is a popular AI programming language?", options: ["HTML", "Python", "CSS", "SQL"], answer: 1 },
+  { q: "Which feature allows AI to recognize images?", options: ["Speech Recognition", "Computer Vision", "Data Entry", "Typing"], answer: 1 },
+  { q: "Which AI is used in self-driving cars?", options: ["Robotics + AI", "Spreadsheet tools", "Email software", "Antivirus"], answer: 0 },
+  { q: "Which company developed Google Assistant?", options: ["Apple", "Microsoft", "Google", "IBM"], answer: 2 },
+  { q: "AI can help in which of the following?", options: ["Healthcare", "Finance", "Education", "All of the above"], answer: 3 },
+  { q: "Which term means AI making decisions based on data?", options: ["Cooking", "Data-driven decision making", "Painting", "Singing"], answer: 1 },
+  { q: "Which company makes the Siri voice assistant?", options: ["Google", "Apple", "Amazon", "Microsoft"], answer: 1 },
+  { q: "Which AI tool helps write text and answer questions?", options: ["Calculator", "ChatGPT", "Paint", "Excel"], answer: 1 },
+  { q: "What is a robot?", options: ["A human", "A machine that can perform tasks automatically", "A book", "A song"], answer: 1 },
+  { q: "Which field combines AI with building physical machines?", options: ["Networking", "Robotics", "Accounting", "Marketing"], answer: 1 },
   { q: "Who is widely regarded as the Father of Artificial Intelligence?", options: ["Alan Turing", "John McCarthy", "Marvin Minsky", "Charles Babbage"], answer: 1 },
   { q: "Which of the following is NOT one of the primary AI domains?", options: ["Computer Vision", "Natural Language Processing", "Data Science", "Database Management System"], answer: 3 },
   { q: "What does the phrase 'Data is the new oil' primarily imply?", options: ["Data is a non-renewable resource", "Data is as valuable as oil", "Data is the raw fuel used to train intelligent machine learning models", "Data and oil both require refineries"], answer: 2 },
@@ -602,6 +641,13 @@ const questions = {
 
 export default function Quizzard() {
   const [screen, setScreen] = useState("home");
+
+  // Always reset scroll to the top whenever the screen changes, so the navbar
+  // is never left clipped by a scroll position carried over from the previous screen.
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [screen]);
+
   const [active, setActive] = useState(null);
   const [selected, setSelected] = useState(null);
   const [score, setScore] = useState(0);
@@ -638,6 +684,7 @@ export default function Quizzard() {
     setCurrentIdx(0);
     setShowAnswer(false);
     setScreen("quiz");
+    window.scrollTo(0, 0);
   };
 
   const handleAnswer = (idx) => {
@@ -669,9 +716,11 @@ export default function Quizzard() {
       setActive(null);
       setSelected(null);
       setCurrentIdx(0);
+      window.scrollTo(0, 0);
     } else {
       setCurrentIdx((i) => i + 1);
       setSelected(null);
+      window.scrollTo(0, 0);
     }
     setShowAnswer(false);
   };
@@ -682,6 +731,7 @@ export default function Quizzard() {
     setSelected(null);
     setCurrentIdx(0);
     setShowAnswer(false);
+    window.scrollTo(0, 0);
   };
 
   const resetAll = () => {
@@ -702,16 +752,16 @@ export default function Quizzard() {
 
     return (
       <div>
-        <div style={styles.logoRow}>
-            <img src="/BPS_Logo_8.png" alt="BPS Passion Trails" style={styles.logoLeft} />
-            <img src="/bps-labs-logo.png" alt="BPS Labs" style={styles.logoCenter} />
-            <img src="/soprasteriaLogo.png" alt="Sopra Steria" style={styles.logoRight} />
-         </div>
-      <div style={styles.page}>
+        {/* Navbar: logos only, solid light background, fixed height, no background image */}
+        <div style={styles.navbar}>
+          <img src="/BPS_Logo_8.png" alt="BPS Passion Trails" style={styles.logoLeft} />
+          <img src="/bps-labs-logo.png" alt="BPS Labs" style={styles.logoCenter} />
+          <img src="/soprasteriaLogo.png" alt="Sopra Steria" style={styles.logoRight} />
+        </div>
+
+        {/* Main Content: full-width purple background image starts right after the navbar */}
+        <div style={styles.page}>
         <div style={styles.quizContainer}>
-          {/* Logo header */}
-
-
           <button onClick={goHome} style={styles.backBtn}>Home</button>
 
           {/* Category header */}
@@ -825,21 +875,23 @@ export default function Quizzard() {
           </>
           )}
         </div>
-      </div>
+        </div>
       </div>
     );
   }
 
   return (
-    <div style={styles.page}>
-      <div style={styles.container}>
-        {/* Logo header */}
-        <div style={styles.logoRow}>
-          <img src="/BPS_Logo_8.png" alt="BPS Passion Trails" style={styles.logoLeft} />
-          <img src="/bps-labs-logo.png" alt="BPS Labs" style={styles.logoCenter} />
-          <img src="/soprasteriaLogo.png" alt="Sopra Steria" style={styles.logoRight} />
-        </div>
+    <div>
+      {/* Navbar: logos only, solid light background, fixed height, no background image */}
+      <div style={styles.navbar}>
+        <img src="/BPS_Logo_8.png" alt="BPS Passion Trails" style={styles.logoLeft} />
+        <img src="/bps-labs-logo.png" alt="BPS Labs" style={styles.logoCenter} />
+        <img src="/soprasteriaLogo.png" alt="Sopra Steria" style={styles.logoRight} />
+      </div>
 
+      {/* Main Content: full-width purple background image starts right after the navbar */}
+      <div style={styles.page}>
+      <div style={styles.container}>
         {/* Top bar */}
         <div style={styles.topBar}>
           <span style={styles.dot} />
@@ -861,7 +913,7 @@ export default function Quizzard() {
                border: "1px solid rgba(255,255,255,0.35)",
                color: "#fff",
                borderRadius: 99,
-               cursor: "not-allowed", 
+              //  cursor: "not-allowed", 
                padding: "5px 14px",
                fontSize: 12,
                fontWeight: 600,
@@ -927,20 +979,22 @@ export default function Quizzard() {
                 )}
               </div>
             );
-          })} 
+          })}
         </div>
+      </div>
       </div>
     </div>
   );
 }
 
 const styles = {
-  page: { minHeight: "100vh", background: "url('/QuizImg.png') center/cover no-repeat fixed", fontFamily: "'Inter', 'Helvetica Neue', sans-serif", padding: "70px 0 60px", backgroundPosition: "center", },
-  container: { maxWidth: 960, margin: "0 auto", padding: "0 24px", position:"sticky" },
-  logoRow: { margin: "-70px 50px 0px 0px",position: "static", top: 0, left: 0, right: 0,borderRadius:"10px", zIndex: 100, display: "flex", alignItems: "center", justifyContent: "space-between", padding: "10px 24px", background: "rgba(166, 174, 192, 0.98)", backdropFilter: "blur(px)" },
-  logoLeft: { height: 99, width: "auto", objectFit: "contain" },
-  logoCenter: { height: 80, width: "auto", objectFit: "contain", background: "none", borderRadius: 8, padding: "4px 10px" },
-  logoRight: { height: 35, width: "auto", objectFit: "contain", background: "none", borderRadius: 8, padding: "5px 9px" },
+  page: { minHeight: "calc(100vh - 100px)", background: "url('/QuizImg.png') center/cover no-repeat fixed", fontFamily: "'Inter', 'Helvetica Neue', sans-serif", padding: "40px 0 60px", backgroundPosition: "center", },
+  container: { maxWidth: 960, margin: "0 auto", padding: "0 24px" },
+  // Navbar: logos only, solid light background, fixed height (90-110px), sits in normal flow so the full-width background image starts right after it
+  navbar: { position: "static", width: "100%", display: "flex", flexWrap: "nowrap", alignItems: "center", justifyContent: "space-between", gap: 24, padding: "0 24px", height: 100, minHeight: 90, maxHeight: 110, boxSizing: "border-box", background: "#e5e7eb", overflow: "hidden" },
+  logoLeft: { height: 85, width: "auto", objectFit: "contain", flexShrink: 0 },
+  logoCenter: { height: 52, width: "auto", objectFit: "contain", background: "#fff", borderRadius: 8, padding: "4px 10px", flexShrink: 0 },
+  logoRight: { height: 34, width: "auto", objectFit: "contain", background: "#fff", borderRadius: 8, padding: "5px 9px", flexShrink: 0 },
   topBar: { display: "flex", alignItems: "center", gap: 8, paddingTop: 28, paddingBottom: 4 },
   dot: { width: 8, height: 8, borderRadius: "50%", background: "#374151", display: "inline-block" },
   topBarText: { fontSize: 13, color: "#ffff", fontWeight: 500, letterSpacing: 0.2 },
@@ -964,7 +1018,7 @@ const styles = {
   playRow: { fontSize: 13, fontWeight: 600 },
   doneBadge: { position: "absolute", top: 14, right: 44, fontSize: 11, fontWeight: 700, borderRadius: 99, padding: "2px 8px" },
   quizContainer: { maxWidth: 620, margin: "0 auto", padding: "40px 24px 60px" },
-  backBtn: { background: "#008000", color: "#fff", border: "none", borderRadius: 15, fontSize: 13, cursor: "pointer", padding: "8px 30px", fontWeight: 800, position: "absolute", top: "200px", left: "200px" },
+  backBtn: { background: "#008000", color: "#fff", border: "none", borderRadius: 15, fontSize: 13, cursor: "pointer", padding: "8px 30px", fontWeight: 800, display: "inline-block", marginBottom: 20 },
   catLabel: { fontSize: 11, fontWeight: 700, letterSpacing: 1.5, color: "#9ca3af", textTransform: "uppercase" },
   catName: { fontSize: 22, fontWeight: 700, color: "#111827" },
   questionCard: { background: "#fff", borderRadius: 16, padding: "28px 28px 24px", marginBottom: 20, boxShadow: "0 1px 4px rgba(0,0,0,0.07)" },
