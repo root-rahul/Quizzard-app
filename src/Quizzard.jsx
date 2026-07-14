@@ -51,9 +51,9 @@ const questions = {
     answer: 2
   },
   {
-    q: "The name of New Hire Induction Program:",
-    options: ["Samavesh", "New Employee Welcome Program", "Joining and Orientation Program", "Employee Onboarding Program"],
-    answer: 0
+  q: "The name of New Hire Induction Program:",
+  options: ["SAMAVESH", "Udaan", "Sankalp", "Saksham"],
+  answer: 0
   },
   {
     q: "Learning World Tour - India Edition was scheduled from:",
@@ -92,17 +92,27 @@ const questions = {
   },
   {
     q: "In how many countries does Sopra Steria operate (approx.)?",
-    options: ["10", "20", "Nearly 30", "50"],
+    options: ["10", "20", "30", "50"],
     answer: 2
   },
   {
     q: "What is Sopra Steria's tagline?",
-    options: ["Think Different", "The World Is How We Shape It", "Innovate Together", "Powering Growth"],
-    answer: 1
+    options: [
+    "The World is how we Mould it",
+    "The World is how we Shape it",
+    "The World is how we See it",
+    "The World is how we Sense it"
+  ],
+  answer: 1
   },
   {
-    q: "What is a key focus of Sopra Steria's services?",
-    options: ["Food production", "Digital transformation", "Transport services", "Media production"],
+  q: "What is a key focus of Sopra Steria's services?",
+    options: [
+    "Digital Telecom",
+    "Digital Transformation",
+    "Digital Communication",
+    "World Transformation"
+  ],
     answer: 1
   },
   {
@@ -262,16 +272,18 @@ const questions = {
   // Film & Television
   3: [
   { q: "Who played Iron Man in the Marvel Cinematic Universe?", options: ["Chris Evans", "Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo"], answer: 1 },
-  { q: "Which film features Tom Hanks as Chuck Noland, a FedEx executive?", options: ["Cast Away","Forrest Gump","Titanic","Gladiator"], answer: 0},
+  { q: "Which film features Tom Hanks as Chuck Noland, a FedEx executive?", options: ["Cast Away", "Forrest Gump", "Titanic", "Gladiator"], answer: 0 },
   { q: "Who directed the movie Titanic?", options: ["Steven Spielberg", "Christopher Nolan", "James Cameron", "Ridley Scott"], answer: 2 },
-  { q: "What is the name of the red-billed hornbill in The Lion King?", options: [ "Scar", "Mufasa", "Rafiki", "Zazu"], answer: 3 },
+  { q: "What is the name of the red-billed hornbill in The Lion King?", options: ["Scar", "Mufasa", "Rafiki", "Zazu"], answer: 3 },
   { q: "Which TV show features the company 'Dunder Mifflin'?", options: ["Friends", "The Office", "Brooklyn Nine-Nine", "Suits"], answer: 1 },
   { q: "Who played Jack Dawson in Titanic?", options: ["Brad Pitt", "Tom Cruise", "Leonardo DiCaprio", "Johnny Depp"], answer: 2 },
   { q: "What is the name of the coffee shop in Friends?", options: ["Coffee Bean", "Central Perk", "Java House", "Café 24"], answer: 1 },
   { q: "Who directed Jurassic Park?", options: ["James Cameron", "Steven Spielberg", "Quentin Tarantino", "Peter Jackson"], answer: 1 },
   { q: "What is the fictional continent in Game of Thrones?", options: ["Narnia", "Westeros", "Middle-earth", "Pandora"], answer: 1 },
   { q: "What alias does Walter White use in Breaking Bad?", options: ["Scarface", "Heisenberg", "Don Vito", "Joker"], answer: 1 },
-  { q: "Which movie features a clownfish named Nemo?", options: [ "Shark Tale", "Finding Nemo", "Madagascar", "Ice Age"], answer: 1 },
+
+  { q: "In which TV show would you find characters named Eleven and Hopper?", options: ["Dark", "Stranger Things", "The Umbrella Academy", "Black Mirror"], answer: 1 },
+
   { q: "Who played the Joker in The Dark Knight (2008)?", options: ["Jared Leto", "Joaquin Phoenix", "Heath Ledger", "Jack Nicholson"], answer: 2 },
   { q: "Which animated film was the first full-length Disney feature?", options: ["Dumbo", "Snow White and the Seven Dwarfs", "Cinderella", "Pinocchio"], answer: 1 },
   { q: "Which movie features the quote 'Here's looking at you, kid'?", options: ["Gone with the Wind", "Casablanca", "Citizen Kane", "Titanic"], answer: 1 },
@@ -280,27 +292,47 @@ const questions = {
   { q: "Which movie features Katniss Everdeen?", options: ["Twilight", "Divergent", "The Hunger Games", "Maze Runner"], answer: 2 },
   { q: "What is the name of the kingdom in Frozen?", options: ["Arendelle", "Avalon", "Eldoria", "Narnia"], answer: 0 },
   { q: "What is CGI short for?", options: ["Computer Graphic Interface", "Cinema Generated Image", "Computer Generated Imagery", "Creative Graphic Input"], answer: 2 },
-  { q: "Which role oversees the creative direction of a film?", options: ["Producer", "Actor", "Director", "Editor"], answer: 2 },
+
+  { q: "Who bridges the creative and business sides of filmmaking?", options: ["Director", "Producer", "Cinematographer", "Production Designer"], answer: 1 },
   { q: "Which was India's first full-length sound film (talkie)?", options: ["Alam Ara", "Pakeezah", "Mughal-e-Azam", "Jhanak Jhanak Payal Baaje"], answer: 0 },
+
   { q: "Who was the first Indian costume designer to win an Academy Award (Oscar) for the film Gandhi?", options: ["Neeta Lulla", "Bhanu Athaiya", "Sabyasachi", "Manish Malhotra"], answer: 1 },
+
   { q: "Which iconic Aamir Khan movie became only the third Indian film to receive an Oscar nomination for Best Foreign Language Film?", options: ["Dhaakad", "Taare Zameen Par", "Laal Singh Chaddha", "Lagaan"], answer: 3 },
-  { q: "Who composed the Oscar-winning soundtrack for Slumdog Millionaire (2008)?", options: ["Sivamani", "A. R. Rahman", "Nadeem-Shravan", "Anand Bakshi"], answer: 1 },
-  { q: "Which beloved Hindi television sitcom centers around the residents of Gokuldham Society?", options: ["Bhabhiji Ghar Par Hain", "Kyunki Saas Bhi Kabhi Bahu Thi", "Gullak", "Taarak Mehta Ka Ooltah Chashmah"], answer: 3 },
-  { q: "Which famous Bollywood actor hosted Kaun Banega Crorepati in 2000?", options: ["Amitabh Bachchan", "Shah Rukh Khan", "Rohit Shetty", "Salman Khan"], answer: 0 },
-  { q: "In 3 Idiots, what was Rancho's real name?", options: ["Sonam Wangchuk", "Phunsukh Wangdu", "Ranchoddas Shamaldas Chanchad", "Chatur Ramalingam"], answer: 1 },
+
+  { q: "Who holds the record for the most Oscar wins by an individual?", options: ["Steven Spielberg", "Walt Disney", "James Cameron", "John Williams"], answer: 1 },
+
+  { q: "Which sitcom is better identified by its fictional society than its city?", options: ["FIR", "Taarak Mehta Ka Ooltah Chashmah", "Khichdi", "Wagle Ki Duniya"], answer: 1 },
+
+  { q: "Which season of Kaun Banega Crorepati was not hosted by Amitabh Bachchan?", options: ["Season 2 (2005–06)", "Season 3 (2007)", "Season 4 (2010)", "Season 5 (2011)"], answer: 1 },
+
+  { q: "In 3 Idiots, what was Rancho's real name?", options: ["Ranchoddas Chanchad", "Phunsukh Wangdu", "Shyamaldas Chanchad", "Viru Sahastrabuddhe"], answer: 1 },
+
   { q: "Which iconic television epic was first broadcast on Doordarshan in 1987?", options: ["Mahabharata", "Luv Kush", "Ramayan", "Krishna"], answer: 2 },
-  { q: "Which pair of singing reality shows have discovered many playback singers?", options: ["India's Got Talent and Dancing Superstar", "Indian Idol and Sa Re Ga Ma Pa", "Rising Star and Superstar Singer", "The Voice and Bharat Ki Shaan"], answer: 1 },
-  { q: "What nickname was given to Manmohan in 3 Idiots?", options: ["Millimetre", "Centimetre", "Nanometre", "Micrometre"], answer: 0 },
+
+  { q: "Which playback singer rose to fame after winning the first season of Sa Re Ga Ma Pa?", options: ["Sonu Nigam", "Shaan", "Udit Narayan", "Abhijeet Bhattacharya"], answer: 0 },
+
+  { q: "Which character in 3 Idiots was better remembered by a measurement-based nickname than his real name?", options: ["Manmohan \"Millimeter\"", "Farhan \"Engineer\"", "Raju \"Lucky\"", "Lal Mohan \"Millimeter\""], answer: 0 },
+
   { q: "What was the name of Tulsi Virani's husband in Kyunki Saas Bhi Kabhi Bahu Thi?", options: ["Karan Virani", "Hemant Virani", "Mihir Virani", "Ansh Virani"], answer: 2 },
-  { q: "Vanraj Shah is a character in which television serial?", options: ["Pavitra Rishta", "Kasautii Zindagii Kay", "Anupamaa", "Kyunki Saas Bhi Kabhi Bahu Thi"], answer: 2 },
+
+  { q: "Which television drama derives its title from the name of a woman who challenges traditional family expectations in the Shah family?", options: ["Imlie", "Anupamaa", "Ghum Hai Kisikey Pyaar Mein", "Yeh Hai Mohabbatein"], answer: 1 },
+
   { q: "Which Jack Nicholson horror classic was released in 1980?", options: ["The Shining", "Psycho", "The Ring", "The Exorcist"], answer: 0 },
+
   { q: "Which Alfred Hitchcock film features Norman Bates?", options: ["The Shining", "Psycho", "The Ring", "The Exorcist"], answer: 1 },
+
   { q: "Who directed Pulp Fiction?", options: ["Quentin Tarantino", "Steven Spielberg", "James Cameron", "Ryan Coogler"], answer: 0 },
+
   { q: "In The Lion, the Witch and the Wardrobe, what magical country is always winter but never Christmas?", options: ["Arendelle", "Norse", "Gondor", "Narnia"], answer: 3 },
+
   { q: "Which of Snow White's seven dwarfs has a name that doesn't contain any letters from 'Snow White'?", options: ["Doc", "Bashful", "Grumpy", "Dopey"], answer: 2 },
+
   { q: "Nick and Amy Dunne are the main characters in which 2014 thriller?", options: ["Girl on the Train", "The Girl Next Door", "Gone Girl", "The Girl with the Dragon Tattoo"], answer: 2 },
-  { q: "In the James Bond series, what letter is used to refer to the Head of MI6?", options: ["M", "W", "Q", "R"], answer: 0 },
-  { q: "Which movie features a young lion prince named Simba fleeing his kingdom after his father's death?", options: ["Madagascar", "The Lion King", "Kung Fu Panda", "Tarzan"], answer: 1 }
+
+  { q: "Who serves as the chief of MI6 in the James Bond universe?", options: ["M", "Q", "Tanner", "Felix Leiter"], answer: 0 },
+
+  { q: "Simba’s journey from a young heir to a legendary ruler is the central story of which film?", options: ["The Jungle Book", "The Lion King", "Finding Nemo", "Tarzan"], answer: 1 }
 ],
   // Food & Drink
   4: [
@@ -406,26 +438,206 @@ const questions = {
 ],
   // Anagrams
   6: [
-    { q: "Which of these words is an anagram of spears?", options: ["Passer", "Papers", "Sparse", "Appear"], answer: 0 },
-    { q: "Which of these words is an anagram of tinsel?", options: ["Lentil", "Titles", "Enlist", "Setlin"], answer: 2 },
-    { q: "Which of these words is an anagram of colordice?", options: ["Coil Decor", "Crocodile", "Cooldicer", "Odd Circle"], answer: 1 },
-    { q: "Which of these words is an anagram of sailed?", options: ["Ladles", "Aside", "Ideals", "Aisles"], answer: 2 },
-    { q: "Which of these words is an anagram of neocosmic?", options: ["Incomes", "Economics", "Concisme", "Comicons"], answer: 1 },
-    { q: "Which of these words is not an anagram of angle?", options: ["Angel", "Glean", "Galen", "Align"], answer: 3 },
-    { q: "Which of these words is an anagram of coastline?", options: ["Esclation", "Sectional", "Societal", "Ceseation"], answer: 1 },
-    { q: "Which of these words is an anagram of serpent?", options: ["Resents", "Penters", "Steeper", "Present"], answer: 3 },
-    { q: "Which of these words is a 9-letter anagram of multitasking?", options: ["Simulating", "Mistaking", "Stimulate", "Millitants"], answer: 1 },
-    { q: "Which of these words is a 10-letter anagram of nionoaviton?", options: ["Invitation", "Navigation", "Vacation", "Innovation"], answer: 3 },
-    { q: "Which of these words is an anagram of formation?", options: ["Informant", "Rainstorm", "Romanian", "Formation"], answer: 2 },
-    { q: "Which of these words cannot be formed using the letters from Corporate?", options: ["Cooperate", "Creator", "Reactor", "Carpet"], answer: 0 },
-    { q: "Which of these are an anagram pair?", options: ["Debit - Credit", "Team - Mean", "Night - Thing", "Estate - Taste"], answer: 2 },
-    { q: "Which of these words is the perfect anagram of Care?", options: ["Acre", "Race", "None of these", "Both A and B"], answer: 3 },
-    { q: "Which of these words is the hidden anagram in Innovation?", options: ["Vacation", "Nation", "Invite", "Action"], answer: 1 },
-    { q: "Which of these words is not possible from the letters of Leadership?", options: ["Dealer", "Shaper", "Spiral", "Shield"], answer: 2 },
-    { q: "Which of these words forms an anagram with Dormitory?", options: ["Dirty Room", "Dorm Story", "Tiny Room", "Mid Room"], answer: 0 },
-    { q: "Which of these words is an anagram of castor?", options: ["Actors", "Carrot", "Tacos", "Costar"], answer: 0 },
-    { q: "Which sport is an anagram of stenins?", options: ["Sprint", "Snooker", "Tennis", "Skating"], answer: 2 },
-    { q: "Which famous brand is an anagram of biancagale?", options: ["Columbia", "Starbucks", "Breitling", "Balenciaga"], answer: 3 }
+  {
+    q: "Which word is an anagram of LISTEN?",
+    options: ["INGEST", "ENTAIL", "ENLIST", "CLIENT"],
+    answer: 2
+  },
+  {
+    q: "Which word is an anagram of EARTH?",
+    options: ["HATER", "ALTER", "AFTER", "ALERT"],
+    answer: 0
+  },
+  {
+    q: "Which word is an anagram of NIGHT?",
+    options: ["FIGHT", "THING", "GIANT", "EIGHT"],
+    answer: 1
+  },
+  {
+    q: "Which word is an anagram of DUSTY?",
+    options: ["MUSTY", "RUSTY", "DUSKY", "STUDY"],
+    answer: 3
+  },
+  {
+    q: "Which word is an anagram of ANGER?",
+    options: ["AGREE", "ANGEL", "RANGE", "AGENT"],
+    answer: 2
+  },
+  {
+    q: "Which word is an anagram of TEACHER?",
+    options: ["CATCHER", "CHEATER", "CHAPTER", "BREATHE"],
+    answer: 1
+  },
+  {
+    q: "Which word is an anagram of LEMON?",
+    options: ["DEMON", "CLONE", "ALONE", "MELON"],
+    answer: 3
+  },
+  {
+    q: "Which word is an anagram of TIMES?",
+    options: ["INSET", "SMITE", "EXIST", "LIMES"],
+    answer: 1
+  },
+  {
+    q: "Which word is an anagram of SPARE?",
+    options: ["ARIES", "AROSE", "ARISE", "PARSE"],
+    answer: 3
+  },
+  {
+    q: "Which word is an anagram of BOARD?",
+    options: ["ADOBE", "BROAD", "ABODE", "ABORT"],
+    answer: 1
+  },
+  {
+    q: "Which word is an anagram of FRIEND?",
+    options: ["DEFINE", "CINDER", "FINDER", "BINDER"],
+    answer: 2
+  },
+  {
+    q: "Which word is an anagram of STONE?",
+    options: ["ONSET", "ETHOS", "CONES", "ATONE"],
+    answer: 0
+  },
+  {
+    q: "Which word is an anagram of PLATE?",
+    options: ["LEAPT", "AMPLE", "ADEPT", "APPLE"],
+    answer: 0
+  },
+  {
+    q: "Which word is an anagram of STRIPE?",
+    options: ["LISTER", "PRIEST", "INSERT", "ASPIRE"],
+    answer: 1
+  },
+  {
+    q: "Which word is an anagram of DANGLE?",
+    options: ["AGENDA", "ANGLER", "ANGLED", "ANGLES"],
+    answer: 2
+  },
+  {
+    q: "Which word is an anagram of STAIN?",
+    options: ["SAINT", "ACTIN", "ASIAN", "ANGST"],
+    answer: 0
+  },
+  {
+    q: "Which word is an anagram of MERIT?",
+    options: ["GRIME", "REMIT", "INERT", "CRIME"],
+    answer: 1
+  },
+  {
+    q: "Which word is an anagram of RESCUE?",
+    options: ["CREASE", "SECURE", "COURSE", "CRUISE"],
+    answer: 1
+  },
+  {
+    q: "Which word is an anagram of LEAST?",
+    options: ["SLATE", "ASTER", "ASSET", "AISLE"],
+    answer: 0
+  },
+  {
+    q: "Which word is an anagram of TRACE?",
+    options: ["ACTOR", "ACUTE", "AVERT", "CARTE"],
+    answer: 3
+  },
+  {
+    q: "Which word is an anagram of THORN?",
+    options: ["BROTH", "FRONT", "NORTH", "FORTH"],
+    answer: 2
+  },
+  {
+    q: "Which word is an anagram of STRAP?",
+    options: ["APART", "TRAPS", "GRASP", "DARTS"],
+    answer: 1
+  },
+  {
+    q: "Which word is an anagram of GREAT?",
+    options: ["ARGUE", "GRATE", "BARGE", "AGATE"],
+    answer: 1
+  },
+  {
+    q: "Which word is an anagram of MASTER?",
+    options: ["BREAST", "STREAM", "ARREST", "ASSERT"],
+    answer: 1
+  },
+  {
+    q: "Which word is an anagram of GARDEN?",
+    options: ["ARDENT", "AGREED", "ANGERS", "DANGER"],
+    answer: 3
+  },
+  {
+    q: "Which word is an anagram of ARGENT?",
+    options: ["EATING", "GARNET", "BANTER", "ERRANT"],
+    answer: 1
+  },
+  {
+    q: "Which word is an anagram of STAPLE?",
+    options: ["PASTEL", "CASTLE", "ASPECT", "ASLEEP"],
+    answer: 0
+  },
+  {
+    q: "Which word is an anagram of MARRIED?",
+    options: ["ARMORED", "ADMIRER", "ADMIRED", "CARRIED"],
+    answer: 1
+  },
+  {
+    q: "Which word is an anagram of PAINTER?",
+    options: ["PERTAIN", "GRANITE", "CERTAIN", "INERTIA"],
+    answer: 0
+  },
+  {
+    q: "Which word is an anagram of RELATION?",
+    options: ["ANTERIOR", "BARITONE", "CLARINET", "ORIENTAL"],
+    answer: 3
+  },
+  {
+    q: "Which word is an anagram of INTEGRAL?",
+    options: ["INERTIAL", "CLEARING", "TRIANGLE", "GRADIENT"],
+    answer: 2
+  },
+  {
+    q: "Which word is an anagram of RESET?",
+    options: ["BERET", "ESTER", "CREST", "BESET"],
+    answer: 1
+  },
+  {
+    q: "Which word is an anagram of LAMENT?",
+    options: ["AMULET", "ANTHEM", "DENTAL", "MANTEL"],
+    answer: 3
+  },
+  {
+    q: "Which word is an anagram of STATE?",
+    options: ["CASTE", "TASTE", "BEAST", "FEAST"],
+    answer: 1
+  },
+  {
+    q: "Which word is an anagram of WASTE?",
+    options: ["PASTE", "SAWED", "HASTE", "SWEAT"],
+    answer: 3
+  },
+  {
+    q: "Which word is an anagram of RISEN?",
+    options: ["DINER", "FINER", "REINS", "BRINE"],
+    answer: 2
+  },
+  {
+    q: "Which word is an anagram of DOZEN?",
+    options: ["BONED", "ANODE", "DRONE", "ZONED"],
+    answer: 3
+  },
+  {
+    q: "Which word is an anagram of NEPAL?",
+    options: ["ALIEN", "ANKLE", "ANGLE", "PANEL"],
+    answer: 3
+  },
+  {
+    q: "Which word is an anagram of SILVER?",
+    options: ["LEVERS", "DIVERS", "SLIVER", "LIVERY"],
+    answer: 2
+  },
+  {
+    q: "Which word is an anagram of READING?",
+    options: ["GRAINED", "BRIGADE", "DARLING", "BEARING"],
+    answer: 0
+  }
 ],
   // AI
   7: [
@@ -433,7 +645,6 @@ const questions = {
   { q: "Which of the following is NOT one of the primary AI domains?", options: ["Computer Vision", "Natural Language Processing", "Data Science", "Database Management System"], answer: 3 },
   { q: "What does the phrase 'Data is the new oil' primarily imply?", options: ["Data is a non-renewable resource", "Data is as valuable as oil", "Data is the raw fuel used to train intelligent machine learning models", "Data and oil both require refineries"], answer: 2 },
   { q: "What is the correct sequence of the AI Project Cycle?", options: ["Problem Scoping → Data Exploration → Data Acquisition → Modelling → Evaluation", "Problem Scoping → Data Acquisition → Data Exploration → Modelling → Evaluation", "Data Acquisition → Problem Scoping → Modelling → Data Exploration → Evaluation", "Evaluation → Data Exploration → Data Acquisition → Problem Scoping → Modelling"], answer: 1 },
-
   { q: "In which stage of the AI Project Cycle do we identify stakeholders and define the goal?", options: ["Modelling", "Data Acquisition", "Data Exploration", "Problem Scoping"], answer: 3 },
 
   { q: "Which programming language is the go-to standard for Artificial Intelligence and Machine Learning?", options: ["PHP", "Java", "Python", "Lisp"], answer: 2 },
@@ -452,7 +663,7 @@ const questions = {
 
   { q: "What does the term 'Object Detection' specifically involve?", options: ["Identifying the file format of an image", "Detecting the shape of an object", "Object categorization + Location tracking", "Increasing the brightness of pixels"], answer: 2 },
 
-  { q: "Artificial Neural Networks (ANN) are inspired by which biological system?", options: ["Human Brain", "Human Heart", "Nervous System", "Human Lungs"], answer: 0 },
+  { q: "Artificial Neural Networks (ANN) are inspired by which biological system?", options: [ "Cerebral Cortex", "Endocrine Glands", "Cardiac Muscle Fibers", "Lymphatic Vessels" ], answer: 0 },
 
   { q: "Which type of Neural Network is specifically designed for sequential data processing and natural language tasks?", options: ["CNN", "RNN", "GAN", "Perceptron"], answer: 1 },
 
@@ -468,7 +679,16 @@ const questions = {
 
   { q: "What does NLP stand for in AI?", options: ["Neural Learning Process", "Natural Language Processing", "Network Logic Programming", "Numeric Language Protocol"], answer: 1 },
 
-  { q: "Which AI model is used for generating text like ChatGPT?", options: ["CNN", "GPT", "RNN", "SVM"], answer: 1 },
+  {
+    q: "Artificial Neural Networks (ANN) are inspired by which biological system?",
+    options: [
+    "Cerebral Cortex",
+    "Endocrine Glands",
+    "Cardiac Muscle Fibers",
+    "Lymphatic Vessels"
+     ],
+  answer: 0
+  },
 
   { q: "What type of AI is ChatGPT?", options: ["Narrow AI", "General AI", "Super AI", "Manual AI"], answer: 0 },
 
@@ -476,7 +696,16 @@ const questions = {
 
   { q: "Which branch of AI deals with understanding images?", options: ["NLP", "Robotics", "Computer Vision", "Networking"], answer: 2 },
 
-  { q: "What is a neural network inspired by?", options: ["Computers", "Human brain", "Internet", "Robots"], answer: 1 },
+  {
+  q: "What is a neural network inspired by?",
+  options: [
+    "Endocrine System",
+    "Biological Neurons",
+    "Lymphatic System",
+    "Muscular System"
+  ],
+  answer: 1
+  },
 
   { q: "Which algorithm learns from labeled data?", options: ["Unsupervised Learning", "Reinforcement Learning", "Supervised Learning", "Random Learning"], answer: 2 },
 
@@ -488,7 +717,16 @@ const questions = {
 
   { q: "Which company developed Azure AI Services?", options: ["Google", "Microsoft", "Amazon", "IBM"], answer: 1 },
 
-  { q: "What is an example of biometric AI?", options: ["Face recognition", "Calculator", "Email", "Printer"], answer: 0 },
+  {
+  q: "What is an example of biometric AI?",
+  options: [
+    "Speech-to-Text",
+    "Fingerprint Recognition",
+    "Image Classification",
+    "Object Detection"
+  ],
+  answer: 1
+},
 
   { q: "Which dataset is used to train AI models?", options: ["Random text", "Training data", "Email drafts", "Notes"], answer: 1 },
 
@@ -496,15 +734,51 @@ const questions = {
 
   { q: "What is bias in AI?", options: ["Correct output", "Error due to unfair data", "Faster processing", "Hardware issue"], answer: 1 },
 
-  { q: "Which AI system is commonly used in fraud detection?", options: ["Rule-based only", "Machine Learning models", "Manual entry", "Typing tools"], answer: 1 },
+  {
+  q: "Which AI system is commonly used in fraud detection?",
+  options: [
+    "Reinforcement Learning",
+    "Machine Learning",
+    "Generative AI",
+    "Computer Vision"
+  ],
+  answer: 1
+},
 
-  { q: "What is a chatbot primarily used for?", options: ["Cooking", "Communication", "Driving", "Painting"], answer: 1 },
+  {
+  q: "What is a chatbot primarily used for?",
+  options: [
+    "Predictive Analytics",
+    "Recommendation Systems",
+    "Natural Language-based Interaction with Users",
+    "Intelligent Document Processing"
+  ],
+  answer: 2
+},
 
   { q: "Which programming concept is used to improve AI models?", options: ["Compilation", "Training", "Debugging", "Printing"], answer: 1 },
 
-  { q: "Which company developed Siri?", options: ["Google", "Apple", "Microsoft", "Amazon"], answer: 1 },
+  {
+  q: "What is the primary function of Tokenization in Natural Language Processing (NLP)?",
+  options: [
+    "Encrypting text data",
+    "Breaking text into smaller units for processing",
+    "Compressing AI models",
+    "Generating embeddings"
+  ],
+  answer: 1
+},
 
-  { q: "What is Generative AI primarily used for?", options: ["Data deletion", "Creating new content", "File storage", "Networking"], answer: 1 },
+  {
+    q: "Which AI concept refers to a model generating convincing but incorrect information?",
+    options: [
+    "Overfitting",
+    "Bias",
+    "Hallucination",
+    "Fine-tuning"
+  ],
+  answer: 2
+  },
 ],
     // Picture Rounds
   8: // Picture Roun
@@ -937,7 +1211,7 @@ export default function Quizzard() {
 const styles = {
   page: { minHeight: "100vh", background: "url('/QuizImg.png') center/cover no-repeat fixed", fontFamily: "'Inter', 'Helvetica Neue', sans-serif", padding: "70px 0 60px", backgroundPosition: "center", },
   container: { maxWidth: 960, margin: "0 auto", padding: "0 24px", position:"sticky" },
-  logoRow: { margin: "-70px 50px 0px 0px",position: "static", top: 0, left: 0, right: 0,borderRadius:"10px", zIndex: 100, display: "flex", alignItems: "center", justifyContent: "space-between", padding: "10px 24px", background: "rgba(166, 174, 192, 0.98)", backdropFilter: "blur(px)" },
+  logoRow: { margin: "-70px 50px 0px 0px",position: "static", top: 0, left: 0, right: 0,borderRadius:"10px", zIndex: 100, display: "flex", alignItems: "center", justifynt: "space-between", padding: "10px 24px", background: "rgba(166, 174, 192, 0.98)", backdropFilter: "blur(px)" },
   logoLeft: { height: 99, width: "auto", objectFit: "contain" },
   logoCenter: { height: 80, width: "auto", objectFit: "contain", background: "none", borderRadius: 8, padding: "4px 10px" },
   logoRight: { height: 35, width: "auto", objectFit: "contain", background: "none", borderRadius: 8, padding: "5px 9px" },
@@ -945,8 +1219,8 @@ const styles = {
   dot: { width: 8, height: 8, borderRadius: "50%", background: "#374151", display: "inline-block" },
   topBarText: { fontSize: 13, color: "#ffff", fontWeight: 500, letterSpacing: 0.2 },
   hero: { paddingTop: 12, paddingBottom: 32 },
-  title: { fontSize: 64, fontWeight: 800, letterSpacing: -2, color: "#fff", margin: "0 0 12px", lineHeight: 1.05 },
-  subtitle: { fontSize: 15, color: "#ffff", maxWidth: 440, lineHeight: 1.6, margin: 0 },
+  title: { fontSize: 77, fontWeight: 800, letterSpacing: -2, color: "#fff", margin: "0 0 12px", lineHeight: 1.05 },
+  subtitle: { fontSize: 18, color: "#ffff", maxWidth: 440, lineHeight: 1.6, margin: 0 },
   scoreBadge: { display: "inline-flex", alignItems: "center", gap: 10, marginTop: 18, background: "#fff", border: "1.5px solid #e5e7eb", borderRadius: 99, padding: "6px 16px", fontSize: 14, color: "#374151" },
   resetBtn: { background: "none", border: "none", color: "#6b7280", fontSize: 13, cursor: "pointer", textDecoration: "underline", padding: 0, },
   sectionHeader: { display: "flex", alignItems: "center", gap: 12, marginBottom: 20 },
@@ -958,10 +1232,10 @@ const styles = {
   cardDone: { border: "1.5px solid #e5e7eb", opacity: 0.85 },
   cardTop: { display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 18 },
   iconBox: { width: 42, height: 42, borderRadius: 11, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 20 },
-  cardNum: { fontSize: 12, color: "#d1d5db", fontWeight: 600, letterSpacing: 1 },
-  cardName: { fontSize: 18, fontWeight: 700, color: "#111827", marginBottom: 4 },
-  cardSub: { fontSize: 12, color: "#9ca3af", marginBottom: 16 },
-  playRow: { fontSize: 13, fontWeight: 600 },
+  cardNum: { fontSize: 18, color: "#d1d5db", fontWeight: 600, letterSpacing: 1 },
+  cardName: { fontSize: 24, fontWeight: 700, color: "#111827", marginBottom: 4 },
+  cardSub: { fontSize: 16, color: "#9ca3af", marginBottom: 16 },
+  playRow: { fontSize: 18, fontWeight: 600 },
   doneBadge: { position: "absolute", top: 14, right: 44, fontSize: 11, fontWeight: 700, borderRadius: 99, padding: "2px 8px" },
   quizContainer: { maxWidth: 620, margin: "0 auto", padding: "40px 24px 60px" },
   backBtn: { background: "#008000", color: "#fff", border: "none", borderRadius: 15, fontSize: 13, cursor: "pointer", padding: "8px 30px", fontWeight: 800, position: "absolute", top: "200px", left: "200px" },
