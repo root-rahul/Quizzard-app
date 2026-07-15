@@ -8,7 +8,7 @@ const categories = [
   { id: 5, name: "Sports", icon: "🏆", color: "#f97316", bg: "#ea580c" },
   { id: 6, name: "Anagrams", icon: "🔤", color: "#6366f1", bg: "#4f46e5" },
   { id: 7, name: "AI", icon: "🤖", color: "#3b82f6", bg: "#2563eb" },
-  { id: 8, name: "Picture Rounds", icon: "🖼️", color: "#14b8a6", bg: "#0f766e" },
+  { id: 8, name: "Picture, Logo & Tagline", icon: "🖼️", color: "#14b8a6", bg: "#0f766e" },
   { id: 9, name: "Geography", icon: "🌍", color: "#0ea5e9", bg: "#0284c7" }
 ];
 
@@ -663,7 +663,7 @@ const questions = {
 
   { q: "What does the term 'Object Detection' specifically involve?", options: ["Identifying the file format of an image", "Detecting the shape of an object", "Object categorization + Location tracking", "Increasing the brightness of pixels"], answer: 2 },
 
-  { q: "Artificial Neural Networks (ANN) are inspired by which biological system?", options: [ "Cerebral Cortex", "Endocrine Glands", "Cardiac Muscle Fibers", "Lymphatic Vessels" ], answer: 0 },
+  { q: "Artificial Neural Networks (ANN) are inspired by which biological system?", options: ["Brain", "Endocrine Glands", "Cardiac Muscle", "Lymphatic System"], answer: 0 },
 
   { q: "Which type of Neural Network is specifically designed for sequential data processing and natural language tasks?", options: ["CNN", "RNN", "GAN", "Perceptron"], answer: 1 },
 
@@ -698,12 +698,7 @@ const questions = {
 
   {
   q: "What is a neural network inspired by?",
-  options: [
-    "Endocrine System",
-    "Biological Neurons",
-    "Lymphatic System",
-    "Muscular System"
-  ],
+  options: ["The human digestive system", "The human brain and its neurons", "The human skeletal system", "The human respiratory system"],
   answer: 1
   },
 
@@ -759,13 +754,8 @@ const questions = {
   { q: "Which programming concept is used to improve AI models?", options: ["Compilation", "Training", "Debugging", "Printing"], answer: 1 },
 
   {
-  q: "What is the primary function of Tokenization in Natural Language Processing (NLP)?",
-  options: [
-    "Encrypting text data",
-    "Breaking text into smaller units for processing",
-    "Compressing AI models",
-    "Generating embeddings"
-  ],
+  q: "What is the main purpose of a prompt in Generative AI?",
+  options: ["To store data permanently", "To give instructions or input to the AI model", "To increase internet speed", "To encrypt AI responses"],
   answer: 1
 },
 
@@ -1211,10 +1201,10 @@ export default function Quizzard() {
 const styles = {
   page: { minHeight: "100vh", background: "url('/QuizImg.png') center/cover no-repeat fixed", fontFamily: "'Inter', 'Helvetica Neue', sans-serif", padding: "70px 0 60px", backgroundPosition: "center", },
   container: { maxWidth: 960, margin: "0 auto", padding: "0 24px", position:"sticky" },
-  logoRow: { margin: "-70px 50px 0px 0px",position: "static", top: 0, left: 0, right: 0,borderRadius:"10px", zIndex: 100, display: "flex", alignItems: "center", justifynt: "space-between", padding: "10px 24px", background: "rgba(166, 174, 192, 0.98)", backdropFilter: "blur(px)" },
-  logoLeft: { height: 99, width: "auto", objectFit: "contain" },
-  logoCenter: { height: 80, width: "auto", objectFit: "contain", background: "none", borderRadius: 8, padding: "4px 10px" },
-  logoRight: { height: 35, width: "auto", objectFit: "contain", background: "none", borderRadius: 8, padding: "5px 9px" },
+  logoRow: { margin: "-70px 50px 0px 0px",position: "static", top: 0, left: 0, right: 0,borderRadius:"10px", zIndex: 100, display: "flex", alignItems: "center", justifyContent: "space-between", padding: "10px 24px", background: "rgba(166, 174, 192, 0.98)", backdropFilter: "blur(px)" },
+  logoLeft: { height: 109, width: "auto", objectFit: "contain", padding: "4px 10px" },
+  logoCenter: { height: 78, width: "auto", objectFit: "contain", background: "none", borderRadius: 8, padding: "4px 10px" },
+  logoRight: { height: 40, width: "auto", objectFit: "contain", background: "none", borderRadius: 8, padding: "5px 9px" },
   topBar: { display: "flex", alignItems: "center", gap: 8, paddingTop: 28, paddingBottom: 4 },
   dot: { width: 8, height: 8, borderRadius: "50%", background: "#374151", display: "inline-block" },
   topBarText: { fontSize: 13, color: "#ffff", fontWeight: 500, letterSpacing: 0.2 },
@@ -1243,12 +1233,12 @@ const styles = {
   catName: { fontSize: 22, fontWeight: 700, color: "#111827" },
   questionCard: { background: "#fff", borderRadius: 16, padding: "28px 28px 24px", marginBottom: 20, boxShadow: "0 1px 4px rgba(0,0,0,0.07)" },
   qNum: { fontSize: 11, fontWeight: 700, letterSpacing: 1.5, color: "#9ca3af", textTransform: "uppercase", marginBottom: 10 },
-  qText: { fontSize: 20, fontWeight: 700, color: "#111827", lineHeight: 1.45 },
+  qText: { fontSize: 30, fontWeight: 700, color: "#111827", lineHeight: 1.45 },
   optionsGrid: { display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12, marginBottom: 24 },
-  optBtn: { display: "flex", alignItems: "center", gap: 12, padding: "14px 16px", borderRadius: 12, fontSize: 14, fontWeight: 600, textAlign: "left", transition: "background 0.15s" },
+  optBtn: { display: "flex", alignItems: "center", gap: 12, padding: "14px 16px", borderRadius: 12, fontSize: 18, fontWeight: 600, textAlign: "left", transition: "background 0.15s" },
   optLetter: { width: 26, height: 26, borderRadius: 8, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 12, fontWeight: 700, flexShrink: 0, transition: "background 0.15s, color 0.15s" },
   feedbackRow: { display: "flex", alignItems: "center", justifyContent: "space-between", gap: 16, flexWrap: "wrap" },
-  correctMsg: { fontSize: 15, fontWeight: 600, color: "#22c55e" },
-  wrongMsg: { fontSize: 15, fontWeight: 600, color: "#ff6b6b" },
+  correctMsg: { fontSize: 18, fontWeight: 600, color: "#22c55e" },
+  wrongMsg: { fontSize: 18, fontWeight: 600, color: "#ff6b6b" },
   playBtn: { color: "#fff", border: "none", borderRadius: 99, padding: "10px 20px", fontSize: 14, fontWeight: 600, cursor: "pointer" },
 };
