@@ -1235,10 +1235,10 @@ const styles = {
   qNum: { fontSize: 11, fontWeight: 700, letterSpacing: 1.5, color: "#9ca3af", textTransform: "uppercase", marginBottom: 10 },
   qText: { fontSize: 30, fontWeight: 700, color: "#111827", lineHeight: 1.45 },
   optionsGrid: { display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12, marginBottom: 24 },
-  optBtn: { display: "flex", alignItems: "center", gap: 12, padding: "14px 16px", borderRadius: 12, fontSize: 18, fontWeight: 600, textAlign: "left", transition: "background 0.15s" },
+  optBtn: { display: "flex", alignItems: "center", gap: 12, padding: "14px 16px", borderRadius: 12, fontSize: 25, fontWeight: 600, textAlign: "left", transition: "background 0.15s" },
   optLetter: { width: 26, height: 26, borderRadius: 8, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 12, fontWeight: 700, flexShrink: 0, transition: "background 0.15s, color 0.15s" },
   feedbackRow: { display: "flex", alignItems: "center", justifyContent: "space-between", gap: 16, flexWrap: "wrap" },
-  correctMsg: { fontSize: 18, fontWeight: 600, color: "#22c55e" },
-  wrongMsg: { fontSize: 18, fontWeight: 600, color: "#ff6b6b" },
+  correctMsg: { fontSize: 25, fontWeight: 600, color: "#22c55e" },
+  wrongMsg: { fontSize: 25, fontWeight: 600, color: "#ff6b6b" },
   playBtn: { color: "#fff", border: "none", borderRadius: 99, padding: "10px 20px", fontSize: 14, fontWeight: 600, cursor: "pointer" },
 };
